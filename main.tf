@@ -1,5 +1,3 @@
-terraform {
-  required_version = ">= 1.0"
+output "project_name" {
+  value = "Terraform Demo"
 }
-
-resource "null_resource" "example" {}
